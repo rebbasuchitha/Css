@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>demo</title>
+<meta charset="UTF-8">
+<style>
+ table, th, td {
+   border:1px solid black;
+   border-collapse: collapse;
+  }
+  th,td {
+   padding:10px;
+  }
+  table#alter tr:nth-child(even)  {
+   background-color: red;
+  }
+  table#alter tr:nth-child(odd) {
+   background-color: blue;
+ }
+ table#alter th  {
+  color:white;
+  background-color: green;
+ }
+</style>
+</head>
+<body>
+ <table id="alter">
+   <tr><th>ENO</th><th>ENAME</th><th>ESAL</th><th>EGRADE</th></tr>
+   <tr><td>101</td><td>venkata bhargavi</td><td>30000</td><td>A</td></tr>
+   <tr><td>102</td><td>suchitha</td><td>30000</td><td>B</td></tr>
+  <tr><td>103</td><td>sumathi</td><td>25000</td><td>B</td></tr>
+  <tr><td>104</td><td>swathi</td><td>30000</td><td>A</td></tr>
+ </table>
+</body>
+</html>
