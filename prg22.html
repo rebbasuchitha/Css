@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Example of css3 shake Animation </title>
+<style>
+.box{
+  background-color:red;
+  margin:50px;
+  width:103px;
+  height:50px;
+  position:relative;
+ left:0;
+  animation:shakeit 2s linear 0s infinite alternate;
+ }
+@keyframes shakeit{
+12.5%{left:-50px;}
+25%{left:50px}
+37.5%{left:-25px;}
+50%{left:25px;}
+62.5%{left:-10px;}
+75%{left:10px;}
+}
+</style>
+</head>
+<body>
+<p><strong> Note:</strong>Click the "show output "button to repeat the animation.</p>
+<div class="box">hi</div>
+</body>
+</html>
